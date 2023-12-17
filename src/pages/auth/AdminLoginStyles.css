@@ -1,0 +1,20 @@
+
+@media screen and (max-width:500px){
+.whiteCard{
+width: 85%;
+height: 58%;
+margin-top: 40px;
+}
+}
+
+
+
+@media screen and (width:320px){
+.whiteCard{
+width: 88%;
+height: 63%;
+margin-top: 60px;
+}
+}
+
+

@@ -1,0 +1,61 @@
+@media screen and (max-width:500px){
+.mainDetailStyle{
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: fit-content;
+}
+}
+
+@media screen and (max-width:500px){
+    .mainDefaultStyle{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: fit-content;
+        margin-top: 20px;
+        border-radius: 10px;
+}
+}
+
+@media screen and (max-width:500px){
+.detailImageHolder{
+width: 90%;
+height: 280px;
+margin-bottom: 20px;
+
+}
+}
+
+@media screen and (max-width:500px){
+.detailImage{
+width: 90%;
+height: 90%;
+object-fit: cover;
+}}
+
+@media screen and (max-width:500px){
+.detailDetail{
+width:95%;
+}}
+
+
+@media screen and (max-width:500px){
+.detailInfo{
+width:95%;
+}}
+
+@media screen and (max-width:500px){
+.detailInfo1{
+font-size:30px;
+line-height: 35px;
+}}
+
+@media screen and (max-width:500px){
+.detailFunction{
+    height: 90px;
+    margin-top: 10px;
+    width: 95%;
+}}
+

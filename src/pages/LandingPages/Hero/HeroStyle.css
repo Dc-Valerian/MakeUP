@@ -1,0 +1,71 @@
+
+
+  
+@media screen and (max-width:500px){
+
+    .Hero{
+overflow: hidden;
+    }  
+  }
+
+@media screen and (max-width:500px){
+
+    .mainHero{
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+      height: fit-content;
+    }  
+  }
+
+
+@media screen and (max-width:500px){
+
+    .mainHeroFirst{
+height: fit-content;
+width: 90%;
+margin-top: 30px;
+gap: 15px;
+    }  
+  }
+
+@media screen and (max-width:500px){
+
+    .mainHeroSecond{
+     width: 90%;
+     margin-top: 20px;
+    }  
+  }
+
+
+@media screen and (max-width:500px){
+
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+    }  
+  }
+
+@media screen and (max-width:500px){
+
+    .mainHeroFirstText{
+     font-size: 22px;
+    }  
+  }
+
+@media screen and (max-width:500px){
+
+    .mainHeroFirstTitle{
+     font-size: 45px;
+     line-height:50px;
+    }  
+  }
+
+@media screen and (max-width:500px){
+
+    .mainHeroFirstSub{
+width: 90%;
+    }  
+  }
