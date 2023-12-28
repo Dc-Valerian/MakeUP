@@ -60,7 +60,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 30px;
-  background-color: var(--myColor);
+  background-color: #440C4D;
   border: 5px solid transparent;
   background-clip: content-box;
   height: 50px;
