@@ -16,7 +16,7 @@ const MainCategory = () => {
 
           <div className="w-[100%] p-[12px] flex-col">
             <div className="w-[100%] flex items-center justify-between">
-              <h3 className="text-[25px]">Valerian</h3>
+              <h3 className="text-[25px]">MakeUp1</h3>
               <div className="flex items-center text-[gold]">
                 <BsStarFill />
                 <BsStarFill />
@@ -28,11 +28,9 @@ const MainCategory = () => {
             <div className="flex items-center mt-[5px]">
               <p>NGN: ₦3000</p>
             </div>
-            <button className="border border-third w-[170px] h-[40px] rounded mt-[10px] mb-[10px]">
-              Click to see USD price
-            </button>
+          <br />
 
-            <p className="mt-[5px]">Calories: 3 carbs</p>
+            <p className="mt-[5px]">Category: Hair</p>
 
             <button className="w-[100%] h-[40px] bg-third text-[#fff] cursor-pointer rounded mt-[20px]">
               <NavLink to={`/`}>View Recipes</NavLink>
@@ -48,8 +46,9 @@ const MainCategory = () => {
 
           <div className="w-[100%] p-[12px] flex-col">
             <div className="w-[100%] flex items-center justify-between">
-              <h3 className="text-[25px]">Valerian</h3>
+              <h3 className="text-[25px]">MakeUp2</h3>
               <div className="flex items-center text-[gold]">
+                <BsStarFill />
                 <BsStarFill />
                 <BsStarFill />
                 <BsStarFill />
@@ -60,14 +59,12 @@ const MainCategory = () => {
             <div className="flex items-center mt-[5px]">
               <p>NGN: ₦3000</p>
             </div>
-            <button className="border border-third w-[170px] h-[40px] rounded mt-[10px] mb-[10px]">
-              Click to see USD price
-            </button>
+            <br />
 
-            <p className="mt-[5px]">Calories: 3 carbs</p>
+            <p className="mt-[5px]">Category: Hair</p>
 
             <button className="w-[100%] h-[40px] bg-third text-[#fff] cursor-pointer rounded mt-[20px]">
-              <NavLink to={`/`}>View Recipes</NavLink>
+              <NavLink to={`/`}>View Categories</NavLink>
             </button>
           </div>
         </div>
@@ -80,9 +77,8 @@ const MainCategory = () => {
 
           <div className="w-[100%] p-[12px] flex-col">
             <div className="w-[100%] flex items-center justify-between">
-              <h3 className="text-[25px]">Valerian</h3>
+              <h3 className="text-[25px]">MakeUp3</h3>
               <div className="flex items-center text-[gold]">
-                <BsStarFill />
                 <BsStarFill />
                 <BsStarFill />
                 <BsStarHalf />
@@ -92,11 +88,9 @@ const MainCategory = () => {
             <div className="flex items-center mt-[5px]">
               <p>NGN: ₦3000</p>
             </div>
-            <button className="border border-third w-[170px] h-[40px] rounded mt-[10px] mb-[10px]">
-              Click to see USD price
-            </button>
+            <br />
 
-            <p className="mt-[5px]">Calories: 3 carbs</p>
+<p className="mt-[5px]">Category: Hair</p>
 
             <button className="w-[100%] h-[40px] bg-third text-[#fff] cursor-pointer rounded mt-[20px]">
               <NavLink to={`/`}>View Recipes</NavLink>

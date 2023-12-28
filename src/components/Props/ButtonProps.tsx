@@ -13,11 +13,11 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ text, border = false })
     <NavLink to="/shop-now">
       <button
         className={`inline-block rounded ${isBorder} ${
-          isBorder ? "border-current" : "bg-[#4DC4CC]"
+          isBorder ? "border-current" : "bg-third"
         } px-8 py-3 text-sm font-medium text-${
           isBorder ? "indigo-600" : "white"
         } transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:${
-          isBorder ? "text-indigo-500" : "bg-[#4DC4CC]"
+          isBorder ? "text-third" : "bg-third"
         }`}
       >
         {text}

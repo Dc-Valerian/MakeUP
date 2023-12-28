@@ -1,4 +1,4 @@
-import About from "../About/About";
+
 import MainCategory from "../AllCategories/MainCategory";
 import Category from "../Category/Category";
 import Discount from "../Discount/Discount";
@@ -12,7 +12,6 @@ const HomeScreen = () => {
       <Hero />
       <Category />
       <MainCategory />
-      {/* <About /> */}
       <Middle/>
       <Discount />
       <Subscribe/>

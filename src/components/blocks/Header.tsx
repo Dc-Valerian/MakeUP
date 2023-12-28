@@ -8,9 +8,6 @@ const Header = () => {
   const [show, setShow] = useState(false);
   const [open, setOpen] = useState(false);
 
-
-
-
   const onOpenHandler = () => setOpen(true);
   const onCloseHandler = () => setOpen(false);
 
@@ -45,15 +42,15 @@ const Header = () => {
                 Home
               </h3>
             </NavLink>
-            <NavLink to="/recipies">
+            <NavLink to="/shop-now">
               <h3 className="mr-[55px] m-[10px] text-[15px] text-[#fff] font-medium cursor-pointer border-b-2 border-transparent hover:border-[#E95E25] transition transform hover:scale-x-100">
-                Recipies
+                Category
               </h3>
             </NavLink>
             <h3 className="mr-[55px] m-[10px] text-[15px] text-[#fff] font-medium cursor-pointer border-b-2 border-transparent hover:border-[#E95E25] transition transform hover:scale-x-100">
               About Us
             </h3>
-            <NavLink to="/contact-us">
+            <NavLink to="">
               <h3 className="mr-[55px] m-[10px] text-[15px] text-[#fff] font-medium cursor-pointer border-b-2 border-transparent hover:border-[#E95E25] transition transform hover:scale-x-100">
                 Contact Us
               </h3>
@@ -61,15 +58,13 @@ const Header = () => {
           </div>
 
           <div className="flex items-center w-[200px] lg:hidden">
-            
-              <NavLink to="/sign-in">
-                <div className="flex items-center mt-[12px] lg:hidden">
-                  <button className="w-[150px] h-[45px] rounded-md text-[#fff] border border-[#fff]">
-                    Sign In
-                  </button>
-                </div>
-              </NavLink>
-            
+            <NavLink to="/sign-in">
+              <div className="flex items-center mt-[12px] lg:hidden">
+                <button className="w-[150px] h-[45px] rounded-md text-[#fff] border border-[#fff]">
+                  Sign In
+                </button>
+              </div>
+            </NavLink>
           </div>
 
           <div
@@ -104,7 +99,7 @@ const Header = () => {
 
                 <NavLink to="/recipies">
                   <h3 className="mr-[55px] m-[10px] text-[20px] font-sm cursor-pointer border-b-2 border-transparent hover:border-yellow-500 transition transform hover:scale-x-100">
-                    Recipies
+                  Category
                   </h3>
                 </NavLink>
 
@@ -118,7 +113,6 @@ const Header = () => {
                   </h3>
                 </NavLink>
 
-         
                 <>
                   <NavLink to="/sign-in">
                     <div className="flex items-center mt-[12px] lg:hidden">

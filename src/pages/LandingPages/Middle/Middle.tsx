@@ -8,10 +8,10 @@ const Middle = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
       >
         <h3 className="text-[#fff] text-[25px] font-semibold sm:text-[20px]">
-          Our Restaurant
+          Our Salon
         </h3>
         <h1 className="text-[#fff] text-[50px] font-semibold mt-[15px] sm:text-[30px] md:text-[40px] md:text-center md:leading-tight">
-          Delicious food with meaning
+          Look Good With Little Effort
         </h1>
         <p className="text-[#fff] w-[350px] mt-[15px] text-[17px] md:text-center sm:w-[270px]">
           On a cold winter night, brighten up your table with a big, colorful
@@ -20,7 +20,7 @@ const Middle = () => {
 
         <NavLink to="/search-restaurants">
           <button className="w-[230px] h-[50px] mt-[20px] text-[#fff] bg-third rounded flex justify-center items-center">
-            View Restaurants
+            View Category
           </button>
         </NavLink>
       </div>

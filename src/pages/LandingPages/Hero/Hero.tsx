@@ -25,7 +25,7 @@ const Hero = () => {
                 Welcome
               </h3>
               <h2 className="text-[#fff] text-[47px] font-bold mt-[12px] sm:text-sm md:text-[32px]">
-                HIGH QUALITY MEALS
+                HIGH QUALITY MAKEUP
               </h2>
               <p className="text-[#b9b9b9] text-[20px] w-[650px] text-center mt-[12px] md:text-[16px] md:w-[350px]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -41,7 +41,7 @@ const Hero = () => {
                 <input
                   type="text"
                   className="flex-1 h-[100%] border-none outline-none"
-                  placeholder="Search recipes......"
+                  placeholder="Search makeups......"
                 />
               </div>
             </div>
@@ -58,7 +58,7 @@ const Hero = () => {
                 Welcome
               </h3>
               <h2 className="text-[#fff] text-[47px] font-bold mt-[12px] sm:text-sm md:text-[32px]">
-                HIGH QUALITY MEALS
+                HIGH QUALITY MAKEUP KITS
               </h2>
               <p className="text-[#b9b9b9] text-[20px] w-[650px] text-center mt-[12px] md:text-[16px] md:w-[350px]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -73,7 +73,7 @@ const Hero = () => {
                 </div>
                 <input
                   className="flex-1 h-[100%] border-none outline-none"
-                  placeholder="Search recipes......"
+                  placeholder="Search makeup......"
                 />
               </div>
             </div>
@@ -90,7 +90,7 @@ const Hero = () => {
                 Welcome
               </h3>
               <h2 className="text-[#fff] text-[47px] font-bold mt-[12px] sm:text-sm md:text-[32px]">
-                HIGH QUALITY MEALS
+                HIGH QUALITY MAKEUPS
               </h2>
               <p className="text-[#b9b9b9] text-[20px] w-[650px] text-center mt-[12px] md:text-[16px] md:w-[350px]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -106,7 +106,7 @@ const Hero = () => {
                 <input
                   type="text"
                   className="flex-1 h-[100%] border-none outline-none"
-                  placeholder="Search recipes......"
+                  placeholder="Search makeup......"
                 />
               </div>
             </div>
