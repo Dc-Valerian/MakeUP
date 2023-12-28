@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section style={{ overflow: "hidden" }}>
       <Slider {...settings}>
-        <div className="h-[100vh] w-[100%] bg-hero bg-center bg-no-repeat bg-cover relative">
+        <div className="h-[100vh] w-[100%] bg-hero bg-center bg-no-repeat bg-cover relative bg-[red]">
           <div
             className="w-[100%] h-[100%] pt-[200px] pb-[200px] flex justify-center items-center md:pt-[100px] md:pb-[100px]"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="h-[100%] w-[100%] bg-hero2 bg-center bg-no-repeat bg-cover relative">
+        <div className="h-[100vh] w-[100%] bg-hero2 bg-center bg-no-repeat bg-cover relative">
           <div
             className="w-[100%] h-[100%] pt-[200px] pb-[200px] flex justify-center items-center md:pt-[100px] md:pb-[100px]"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
@@ -80,7 +80,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="h-[100%] w-[100%] bg-hero3 bg-center bg-no-repeat bg-cover relative">
+        <div className="h-[100vh] w-[100%] bg-hero3 bg-center bg-no-repeat bg-cover relative">
           <div
             className="w-[100%] h-[100%] pt-[200px] pb-[200px] flex justify-center items-center md:pt-[100px] md:pb-[100px]"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}

@@ -8,7 +8,7 @@ const Discount = () => {
 
   return (
     <div
-      className="bg-[#F3F4F6] w-[100%] flex items-end justify-center h-[550px]"
+      className="bg-[#F3F4F6] w-[100%] flex items-end justify-center h-[550px] discountHome"
       id="shop"
     >
       <div className="w-[95%] flex justify-between flex-wrap">

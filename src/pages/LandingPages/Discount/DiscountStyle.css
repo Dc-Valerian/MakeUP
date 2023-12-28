@@ -2,6 +2,14 @@
 
 
 @media screen and (max-width:500px){
+    .discountHome{
+    width: 100%;
+    height:fit-content;
+    }
+    }
+    
+
+@media screen and (max-width:500px){
     .discountCard{
     width: 100%;
     height:400px;
