@@ -1,4 +1,4 @@
-import { CiSearch } from "react-icons/ci";
+
 import { ProductDetail } from "./ProductDetail";
 
 const ShopNow = () => {

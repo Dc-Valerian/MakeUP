@@ -1,6 +1,5 @@
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
-import Casio from "../Category/Casio";
 
 const MainCategory = () => {
   return (
